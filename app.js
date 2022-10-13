@@ -13,5 +13,11 @@ function updateNum(){
 
     if(idx < 101) {
         setTimeout(updateNum, 20);
+        setInterval('location.reload()',3000);
     }
+
+   
+    
+  
+
 }
